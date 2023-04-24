@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    top: 20vh;
+    background-color: #58805e;
+    h1{
+        color: #e2e4dd;
+        letter-spacing: 1rem;
+        text-align: center;
+        padding: 3rem;
+    }
+    div#line{
+        margin: 0 auto;
+        height: 0.1rem;
+        width: 50vw;
+        background-color: #e2e4dd;
+        align-items: center;
+    }
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+    label{
+        display: inline-block;
+        color: #e2e4dd;
+        font-size: 1.5rem;
+        text-align: right;
+        font-weight: bold;
+    }
+    input{
+        position: relative;
+        text-align: center;
+        left: 3rem;
+        height: 2.5rem;
+        width: 20vw;
+        margin: 0 auto;
+        background-color: #e2e4dd;
+        color: #314543;
+        border: 0px;
+        border-radius: 2rem;
+    }
+    div#first{
+        text-align: center;
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    div#second{
+        text-align: center;
+        width: 100%;
+        padding: 0.25rem;
+    }
+    div#end{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        button#submit{
+            a{
+                text-decoration: none;
+                color: #e2e4dd;
+            }
+                width: 6rem;
+                height: 2.5rem;
+                font-size: 1rem;
+                font-weight: bold;
+                background-color: #314543;
+                border: none;
+                border-radius: 1rem;
+        }
+        p#forgetpassword{
+            
+            a{
+                position: relative;
+                top: 0.5rem;
+                padding-left: 1rem;
+                color: #e2e4dd;
+            }
+        }
+    }
+}
+
+//userdata
+div.data{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    div.UID{
+        display: flex;
+        width: 100%;
+        padding: 2rem;
+        justify-content: center;
+        div.UIDWord{
+            font-size: 1.5rem;
+            color: #e2e4dd;
+            font-weight: bold;
+            padding-right: 1rem;
+        }
+        div.UIDBlock{
+            height: 2.5rem;
+            width: 20vw;
+            text-align: center;
+            line-height: 2.5rem;
+            background-color: #e2e4dd;
+            color: #314543;
+            border: 0px;
+            border-radius: 2rem;
+        }
+    }
+    div.Email{
+        display: flex;
+        width: 100%;
+        padding: 2rem;
+        justify-content: center;
+        div.EmailWord{
+            font-size: 1.5rem;
+            color: #e2e4dd;
+            font-weight: bold;
+            padding: 0rem 1rem;
+        }
+        div.EmailBlock{
+            height: 2.5rem;
+            width: 20vw;
+            text-align: center;
+            line-height: 2.5rem;
+            background-color: #e2e4dd;
+            color: #314543;
+            border: 0px;
+            border-radius: 2rem;
+        }
+        img{
+            display: flex;
+            position: relative;
+            left: 1rem;
+            box-sizing: border-box;
+            background-color:#e2e4dd;
+            border: 0;
+            border-radius: 0.5rem;
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+    div.Password{
+        display: flex;
+        width: 100%;
+        padding: 2rem;
+        justify-content: center;
+        div.PasswordWord{
+            font-size: 1.5rem;
+            color: #e2e4dd;
+            font-weight: bold;
+            padding-right: 1rem;
+        }
+        div.PassWordBlock{
+            height: 2.5rem;
+            width: 20vw;
+            text-align: center;
+            line-height: 2.5rem;
+            background-color: #e2e4dd;
+            color: #314543;
+            border: 0px;
+            border-radius: 2rem;
+        }
+        img{
+            display: flex;
+            position: relative;
+            left: 1rem;
+            box-sizing: border-box;
+            background-color:#e2e4dd;
+            border: 0;
+            border-radius: 0.5rem;
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+    button#DataEdit{
+        margin: 0 auto;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: #314543;
+        border-radius: 1rem;
+        a{
+            color: #e2e4dd;
+            text-decoration: none;
+        }
+    }
+    img.EditPen:hover{
+        background-color: #314543;
+    }
+}
+
+//StoreUserData
+div.data{
+    button#DataStore{
+        margin: 0 auto;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: #314543;
+        border-radius: 1rem;
+        a{
+            color: #e2e4dd;
+            text-decoration: none;
+        }
+    }
+}
